@@ -68,6 +68,28 @@
             border-top: 2px solid #003366;
         }
 
+
+        .venue-info {
+            background-color: #e7f3fe;
+            border: 1px solid #003366;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 8px;
+            width: 80%;
+            text-align: left;
+        }
+
+        .mapp {
+            display: flex;
+           justify-content: center; /* 가로 중앙 정렬 */
+            align-items: center; /* 세로 중앙 정렬 */
+        }
+
+        .iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
         .download-link {
             background-color: #003366;
             color: white;
@@ -79,6 +101,21 @@
         .download-link:hover {
             background-color: #00509e;
         }
+
+        .link-section {
+            margin-top: 20px;
+        }
+
+        .link-section a {
+            display: block;
+            margin: 5px 0;
+            color: #003366;
+            text-decoration: none;
+        }
+
+        .link-section a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -89,15 +126,21 @@
     </header>
 
     <div class="info">
-        <p><strong>Date:</strong> October 23-25, 2024</p>
-        <p><strong>Place:</strong> Bldg. 108, Room 320, UNIST, Ulsan, Korea</p>
+        <p> 
+<strong>Date:</strong> October 23-25, 2024</p>
+        <p> 
+<strong>Place:</strong> Bldg. 108, Room 320, UNIST, Ulsan, Korea</p>
         <p><strong>Organized by:</strong> Youngae Lee (UNIST)</p>
         <p><strong>Supported by:</strong></p>
         <div class="logos">
             <img src="unist_logo.png" alt="unist">
             <img src="nrf_logo.png" alt="nrf_logo">
+        
         </div>
+        <p><strong>UNIST PDE group:</strong> <a href="https://sites.google.com/view/unist-pde/home" > https://sites.google.com/view/unist-pde/home</a></p>
+
     </div>
+
     <h2>Schedule</h2>
     <table>
         <thead>
@@ -113,8 +156,7 @@
                 <td rowspan="4">10.23 (Wed.)</td>
                 <td>10:00-11:30</td>
                 <td>Jongmin Han</td>
-                <td><a href="day1/lecture1.html">Solution structures for the self-dual equations of the Einstein-Maxwell-Higgs model on
-                    compact surfaces</a></td>
+                <td><a href="day1/lecture1.html">Solution structures for the self-dual equations of the Einstein-Maxwell-Higgs model on compact surfaces</a></td>
             </tr>
             <tr>
                 <td>11:30-13:30</td>
@@ -123,7 +165,7 @@
             <tr>
                 <td>14:30-16:00</td>
                 <td>Ting-Jung Kuo</td>
-                <td><a href="day1/lecture2.html">Spherical metric with conical singularties with total curvature on flat tori</a></td>
+                <td><a href="day1/lecture2.html">Spherical metric with conical singularities with total curvature on flat tori</a></td>
             </tr>
             <tr>
                 <td>16:30-18:00</td>
@@ -163,20 +205,39 @@
             <tr>
                 <td>14:30-16:00</td>
                 <td>Michiaki Onodera</td>
-                <td><a href="day3/lecture2.html">perturbation theory of overdetermined boundary value problems</a></td>
+                <td><a href="day3/lecture2.html">Perturbation theory of overdetermined boundary value problems</a></td>
             </tr>
             <tr>
                 <td>16:30-18:00</td>
                 <td>Xinyu Li</td>
-                <td><a href="day3/lecture3.html">Uniqueness of Ground states for Fractional Schrödinger Equations with General
-                    Nonlinearities</a></td>
+                <td><a href="day3/lecture3.html">Uniqueness of Ground states for Fractional Schrödinger Equations with General Nonlinearities</a></td>
             </tr>
         </tbody>
     </table>
+    <p> <a class="download-link" href="2024 UNIST Workshop (Program).PDF" download>pdf download</a></p>
+    
+<footer></footer>
 
-    <footer>
-        <p> <a class="download-link" href="2024 UNIST Workshop (Program).PDF" download>pdf download</a></p>
-    </footer>
-</body>
+    <h2>Venue</h2>
+<div class="info" >
+    <p><strong>Direction   :</strong><a href="https://www.unist.ac.kr/about-unist/directions/map/">UNIST CAMPUS MAPS</a></p> 
+    <div class="mapp"><img src="https://www.unist.ac.kr/wp-content/uploads/2023/09/UNIST_CampusMap_2023_eng.jpg" alt="Campus Map"  width="900" height="600"></div>
+<br>
+<p><strong>Natural Science Building (Bld 4, 108)</strong>
+    <div  class="mapp">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d765.7786127134276!2d129.1890615873007!3d35.572049536664494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35662fd1b93aaaa9%3A0x663aec650ccb8a93!2s108%2C%20Natural%20Science%20Building%20UNIST!5e0!3m2!1sko!2skr!4v1727933447986!5m2!1sko!2skr"  width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
+    <br>
+    <p><strong>Guest House (Bld 23, 308)</strong></p> 
+    <p>Website : <a href="https://house.unist.ac.kr/sub.php?code=010400#/MAIN/"> https://house.unist.ac.kr/sub.php?code=010400#/MAIN/</a></p>
+<div  class="mapp">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d405.63098119211475!2d129.18697724847948!3d35.577210769470895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUNIST%20guest%20hause!5e0!3m2!1sko!2skr!4v1727933247829!5m2!1sko!2skr"  width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+</div>
+
+<footer></footer>
 </html>
